@@ -1,0 +1,66 @@
+.addPlan {
+    background-color: rgb(229, 228, 228);
+    border-radius: 20px;
+    padding: 1rem;
+    max-width: 50rem;
+    border: 1px solid black;
+}
+.addPlan div {
+    display: flex;
+    justify-content: space-between;
+}
+.addPlan .title {
+    font-size: large;
+    padding: 0.7rem 0.3rem;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.addPlan .date {
+    background-color: white;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.addPlan .description {
+    font-size: large;
+    padding: 1rem 0.3rem;
+    width: 50%;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.addPlan .save{
+    height: max-content;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.days button {
+    padding: 1rem;
+    margin: 1rem 1.5rem;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.card {
+    background-color: rgb(229, 228, 228);
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+    max-width: 50rem;
+    border: 1px solid black;
+}
+.card div button {
+    padding: 0.3rem;
+    margin-left: 45rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+/* Assuming you have a CSS file, e.g., home.css */
+.days button.selected {
+    background-color: #6f6f6f; /* Set your desired background color for the selected button */
+    color: #fff; 
+    border: none;
+}
