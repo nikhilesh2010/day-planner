@@ -14,7 +14,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={ <Home events={events}/> }/>
+        <Route path='/' element={ <Home events={events} addEventHandler={addEventHandler} /> }/>
       </Routes>
     </BrowserRouter>
   );
