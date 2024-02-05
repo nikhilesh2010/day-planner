@@ -8,7 +8,7 @@ const EventCard = (props) => {
                 <h2>{props.event.title}</h2>
                 <p>{props.event.description}</p>
                 <div>
-                    <button type="button" onClick={onDelete}>DELETE</button>
+                    <button type="button" className="delete" onClick={onDelete}>DELETE</button>
                 </div>
             </div>
             <br></br>
