@@ -1,3 +1,6 @@
+.body {
+    padding: 1rem;
+}
 .addPlan {
     background-color: rgb(229, 228, 228);
     border-radius: 20px;
@@ -19,7 +22,7 @@
 .addPlan .date {
     background-color: white;
     padding: 5px 20px;
-    border-radius: 5px;
+    border-radius: 10px;
     border: 1px solid black;
 }
 .addPlan .description {
@@ -63,4 +66,81 @@
     background-color: #6f6f6f; /* Set your desired background color for the selected button */
     color: #fff; 
     border: none;
+}
+
+@media only screen and (max-width: 795px){
+    .days button {
+        padding: 0.5rem;
+        font-size: 0.8rem;
+        margin: 1rem 1rem;
+    }
+}
+@media only screen and (max-width: 576px){
+    .days button {
+        padding: 0.6rem;
+        font-size: 0.7rem;
+        margin: 1rem 0.6rem;
+    }
+}
+@media only screen and (max-width: 472px){
+    .days button {
+        padding: 0.6rem;
+        font-size: 0.7rem;
+        margin: 1rem 0.3rem 0rem;
+    }
+    .addPlan div {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .addPlan .title {
+        font-size: small;
+        padding: 0.5rem 0.3rem;
+        width: 50%;
+    }
+    .addPlan .date {
+        width: 50%;
+        margin: 1rem 0rem 0rem;
+    }
+    .addPlan .description {
+        font-size: small;
+        padding: 0.5rem 0.3rem;
+        width: 100%;
+    }
+    .addPlan .save{
+        height: max-content;
+        padding: 0.5rem 1rem;
+        margin: 1rem auto 0.5rem;
+    }
+}
+@media only screen and (max-width: 320px){
+    .days button {
+        padding: 0.6rem;
+        font-size: 0.7rem;
+        margin: 1rem 0.3rem 0rem;
+    }
+    .addPlan div {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .addPlan .title {
+        font-size: small;
+        padding: 0.5rem 0.3rem;
+        width: 50%;
+    }
+    .addPlan .date {
+        width: 50%;
+        margin: 1rem 0rem 0rem;
+    }
+    .addPlan .description {
+        font-size: small;
+        padding: 0.5rem 0.3rem;
+        width: 100%;
+    }
+    .addPlan .save{
+        height: max-content;
+        padding: 0.5rem 1rem;
+        margin: 1rem auto 0.5rem;
+    }
 }

@@ -70,7 +70,7 @@ const Home = (props) => {
 
 
     return (
-        <>
+        <div className='body'>
             <form onSubmit={add}>
                 <div className="addPlan">
                     <div>
@@ -107,7 +107,7 @@ const Home = (props) => {
                 ))}
             </EventList>
 
-        </>
+        </div>
     )
 };
 
